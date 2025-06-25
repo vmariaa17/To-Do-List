@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f9f9f9;
+    color: #1c1c1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+  
+  .app-container {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+  
+  form {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 0.8rem 1rem;
+    border: 1px solid #d1d1d6;
+    border-radius: 12px;
+    font-size: 1rem;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #007aff;
+    box-shadow: 0 0 0 2px rgba(0, 122, 255, 0.2);
+  }
+  
+  button {
+    background-color: #007aff;
+    color: white;
+    border: none;
+    padding: 0 1.2rem;
+    font-size: 1rem;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #005ecb;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    background: #f2f2f7;
+    padding: 0.8rem 1rem;
+    border-radius: 12px;
+    margin-bottom: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li.completed .task-text {
+    text-decoration: line-through;
+    color: #8e8e93;
+  }
+  
+  .task-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .task-date {
+    font-size: 0.75rem;
+    color: #8e8e93;
+    margin-top: 0.2rem;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: transform 0.1s ease;
+  }
+  
+  .actions button:hover {
+    transform: scale(1.1);
+  }
+  
+  h2 {
+    font-size: 1.1rem;
+    margin: 1.5rem 0 0.5rem;
+    color: #8e8e93;
+  }
+  
+  #deleted-tasks li {
+    background: #fff0f0;
+    color: #ff3b30;
+    text-decoration: line-through;
+  }
+  
