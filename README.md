@@ -35,7 +35,9 @@ Or, clone this repo and use Live Server:
 ```bash
 git clone https://github.com/vmariaa17/To-Do-List.git
 
+```
 👩‍💻 Author
 
 Vanesa Maria Alexandra Anghel
 🎓 Computer Engineering student @ UPV
+
